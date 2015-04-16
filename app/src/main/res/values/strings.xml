@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PetFeeder</string>
+
+    <string name="welcome">Bem vindo ao Pet Feeder App. Para começarmos é necessário que cadastre seu pet.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_pet">CreatePetActivity</string>
+    <string name="title_activity_my_pets">MyPetsActivity</string>
+</resources>
