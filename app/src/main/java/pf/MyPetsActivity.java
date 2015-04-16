@@ -1,9 +1,11 @@
-package com.example.lucasleite.petfeeder;
+package pf;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.lucasleite.petfeeder.R;
 
 
 public class MyPetsActivity extends Activity {

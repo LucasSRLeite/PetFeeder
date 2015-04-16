@@ -1,4 +1,4 @@
-package com.example.lucasleite.petfeeder;
+package pf;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

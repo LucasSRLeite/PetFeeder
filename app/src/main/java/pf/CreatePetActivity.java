@@ -1,13 +1,14 @@
-package com.example.lucasleite.petfeeder;
+package pf;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.NumberPicker;
 import android.widget.SeekBar;
+
+import com.example.lucasleite.petfeeder.R;
 
 
 public class CreatePetActivity extends Activity {
@@ -17,7 +18,6 @@ public class CreatePetActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_pet);
 
-        SeekBar seekBarAge = (SeekBar) findViewById(R.id.seekBarAge);
         NumberPicker picker = (NumberPicker) findViewById(R.id.numberPicker);
         picker.setOnClickListener(new View.OnClickListener() {
 
